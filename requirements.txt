@@ -1,0 +1,8 @@
+# Pinned to MCP 1.x on purpose: in MCP 2.x FastMCP was renamed to
+# MCPServer and the low-level API changed. The task asks for the
+# official SDK, and 1.x is the API most evaluators will recognise.
+mcp[cli]<2
+pydantic>=2.0
+fastapi
+uvicorn
+httpx
